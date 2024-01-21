@@ -1,0 +1,114 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.triggerfish",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [3, 4.5, -2.5],
+					"cubes": [
+						{"origin": [-3, 0, -7], "size": [6, 10, 14], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bottom",
+					"parent": "bone",
+					"pivot": [0, -0.5, 4],
+					"cubes": [
+						{"origin": [0, -4, 0], "size": [0, 7, 8], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "top",
+					"parent": "bone",
+					"pivot": [0, 10.5, 4],
+					"cubes": [
+						{"origin": [0, 7, 0], "size": [0, 7, 8], "uv": [16, 16]}
+					]
+				},
+				{
+					"name": "topjaw",
+					"parent": "bone",
+					"pivot": [0, 6, -6.5],
+					"cubes": [
+						{"origin": [-2, 3, -9], "size": [4, 6, 3], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "bone",
+					"pivot": [0, 5, 6],
+					"cubes": [
+						{"origin": [-1, 3, 6], "size": [2, 4, 4], "uv": [28, 27]}
+					]
+				},
+				{
+					"name": "fin",
+					"parent": "tail",
+					"pivot": [0, 5, 9],
+					"cubes": [
+						{"origin": [0, 0, 9], "size": [0, 10, 4], "uv": [26, 0]}
+					]
+				},
+				{
+					"name": "lowjaw",
+					"parent": "bone",
+					"pivot": [0, 2, -6.5],
+					"cubes": [
+						{"origin": [-2, 1, -9], "size": [4, 2, 3], "uv": [0, 9]}
+					]
+				},
+				{
+					"name": "pec",
+					"parent": "bone",
+					"pivot": [-3, 4.5, -2.5],
+					"cubes": [
+						{
+							"origin": [-3, 3, -3],
+							"size": [0, 3, 3],
+							"pivot": [-3, 4.5, -2.5],
+							"rotation": [0, -40, 0],
+							"uv": {
+								"north": {"uv": [28, 42], "uv_size": [0, 3]},
+								"east": {"uv": [25, 42], "uv_size": [3, 3]},
+								"south": {"uv": [31, 42], "uv_size": [0, 3]},
+								"west": {"uv": [25, 42], "uv_size": [3, 3]},
+								"up": {"uv": [28, 39], "uv_size": [0, 3]},
+								"down": {"uv": [28, 42], "uv_size": [0, -3]}
+							}
+						}
+					]
+				},
+				{
+					"name": "pec2",
+					"parent": "bone",
+					"pivot": [3, 4.5, -2.5],
+					"cubes": [
+						{
+							"origin": [3, 3, -3],
+							"size": [0, 3, 3],
+							"pivot": [3, 4.5, -2.5],
+							"rotation": [0, 37.5, 0],
+							"uv": {
+								"north": {"uv": [6, 43], "uv_size": [0, 3]},
+								"east": {"uv": [6, 43], "uv_size": [3, 3]},
+								"south": {"uv": [9, 43], "uv_size": [0, 3]},
+								"west": {"uv": [6, 43], "uv_size": [3, 3]},
+								"up": {"uv": [6, 40], "uv_size": [0, 3]},
+								"down": {"uv": [6, 43], "uv_size": [0, -3]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.sunfish",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, -0.64968, 23.78456]
+				},
+				{
+					"name": "centralhold",
+					"parent": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 0, -12], "size": [12, 29, 27], "uv": [0, 0]},
+						{"origin": [-5, 3, -19], "size": [10, 22, 9], "uv": [0, 56]},
+						{"origin": [-5, 3, 15], "size": [10, 22, 6], "uv": [38, 56]}
+					]
+				},
+				{
+					"name": "littletail",
+					"parent": "centralhold",
+					"pivot": [0, 13.5, 20],
+					"cubes": [
+						{"origin": [-2, 5, 21], "size": [4, 17, 6], "uv": [51, 0]}
+					]
+				},
+				{
+					"name": "topfin",
+					"parent": "centralhold",
+					"pivot": [0, 20.79754, 20.0131],
+					"cubes": [
+						{"origin": [-1, 21.09866, 13.80537], "size": [2, 22, 9], "pivot": [0, 18.59866, 19.80537], "rotation": [-20, 0, 0], "uv": [70, 47]}
+					]
+				},
+				{
+					"name": "bottomfin",
+					"parent": "centralhold",
+					"pivot": [0, 4.35032, 19.78456],
+					"cubes": [
+						{"origin": [-1, -13.14968, 16.78456], "size": [2, 19, 8], "pivot": [0, -0.64968, 23.78456], "rotation": [15, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "finright",
+					"parent": "centralhold",
+					"pivot": [6.5, 15.35032, -7.21544],
+					"cubes": [
+						{"origin": [6, 12.35032, -7.21544], "size": [1, 6, 6], "uv": [71, 12]}
+					]
+				},
+				{
+					"name": "finleft",
+					"parent": "centralhold",
+					"pivot": [-6.5, 15.35032, -7.21544],
+					"cubes": [
+						{"origin": [-7, 12.35032, -7.21544], "size": [1, 6, 6], "uv": [71, 0]}
+					]
+				}
+			]
+		}
+	]
+}
